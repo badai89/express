@@ -42,7 +42,7 @@ app.get("/hello", (request, response, next) => {
 
 
 // setup server to listen on port :9999
-app.listen(9999, () =>
+app.listen(PORT, () =>
   console.log("Express server is ready on localhost:3000")
 );
 
