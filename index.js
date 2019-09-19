@@ -7,6 +7,8 @@ const port = 8888;
 let user = require("./respon-body");
 let router = require("./routes");
 
+const PORT = process.env.PORT || 3000;
+
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200
